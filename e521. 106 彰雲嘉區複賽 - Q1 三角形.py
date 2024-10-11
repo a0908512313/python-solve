@@ -9,7 +9,7 @@ for _ in range(n):
     if a + b <= c:
         results.append(0)
     else:
-        if a == b:
+        if a == b or b==c or c==a:
             results.append([1, 1])
         else:
             results.append([1, 0])
